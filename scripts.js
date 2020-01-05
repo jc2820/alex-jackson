@@ -27,5 +27,3 @@ navbar.addEventListener("click", event => {
 const showContactBox = () => {
     return contactBox.style.display === "none" ? contactBox.style.display = "block" : contactBox.style.display = "none";
 }
-
-//window.onload = () => showContactBox();
